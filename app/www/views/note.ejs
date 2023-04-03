@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/public/bootstrap.min.css" rel="stylesheet">
+    <link href="/challenge/style.css" rel="stylesheet">
+    <script src="/challenge/purify.js"></script>
+    <script src="/challenge/view.js" defer></script>
+</head>
+<br>
+<div class="container alert alert-success" role="alert" id="main" hidden>
+</div>
+<div class="container alert alert-danger" role="alert" id="main" hidden>
+</div></br>
+<div class="container" name="notes" id="main">
+    <div style="padding:2vw">
+        <div class="row" id="theme-update" style="width:auto">
+
+            <div class="col my-5">
+                <div class="row text-center px-3 mb-3" style="display:block">
+                    <img id="app-logo" src="/challenge/noteico.png">
+                </div>
+                <div class="row px-3 mb-3 text-center" style="display:block">
+                    <h2 class="mb-5 heading">Incomplete Secure Notes Application 2.0 💀</h2>
+                </div>
+                <h2 class="msg-info">
+                    <%= title %>
+                </h2><br>
+                <div id="noteContent" class="form-group">
+                    {{ body }}
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+
+</html>
+
+<!-- We are OpenSource Now! https://github.com/0xGodson/notes-app-2.0 -->

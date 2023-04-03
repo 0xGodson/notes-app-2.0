@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+    <link href="/public/bootstrap.min.css" rel="stylesheet">
+    <link href="/challenge/style.css" rel="stylesheet">
+    <script src="/challenge/app.js" defer></script>
+</head>
+
+<body className="snippet-body">
+    <br>
+    <div class="container alert alert-success" role="alert" id="main" hidden>
+    </div>
+    <div class="container alert alert-danger" role="alert" id="main" hidden>
+    </div></br>
+    <div class="container" name="notes" id="main">
+        <div style="padding:2vw">
+            <div class="row" id="theme-update" style="width:auto">
+                <div class="col my-5">
+                    <div class="row text-center px-3 mb-3" style="display:block">
+                        <img id="app-logo" src="/challenge/noteico.png">
+                    </div>
+                    <div class="row px-3 mb-3 text-center" style="display:block">
+                        <h2 class="mb-5 heading">Incomplete Secure Notes Application 2.0 💀</h2>
+                    </div>
+                    <h3 class='msg-info'>Create New Note!</h3>
+                    <div class="form-group">
+                        <form>
+                            <label class="form-control-label text-muted">give me a nice title</label>
+                            <input type="text" name="title" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-control-label text-muted">Start Your Notes Here :) <i
+                                style="color:rgb(255, 0, 0);">[We Only Support HTML now!]</i></label>
+                        <textarea name="body" class="form-control"></textarea>
+                    </div>
+                    <div class="row justify-content-center my-3 px-3">
+                        <button type="button" id="note-submit" class="btn-block btn-color">Create Note!</button>
+                    </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- We are OpenSource Now! https://github.com/0xGodson/notes-app-2.0 -->

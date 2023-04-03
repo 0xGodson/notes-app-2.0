@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: ./www/
+      dockerfile: Dockerfile
+    ports:
+      - "80:3000"

@@ -1,0 +1,23 @@
+{
+  "name": "incomplete-secure-notes-2.0",
+  "version": "1.0.0",
+  "description": "💀",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "0xGodson",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.22",
+    "puppeteer": "^19.8.0",
+    "uuid": "^9.0.0"
+  }
+}
