@@ -6,4 +6,4 @@ services:
       context: ./www/
       dockerfile: Dockerfile
     ports:
-      - "80:3000"
+      - "80:80"
